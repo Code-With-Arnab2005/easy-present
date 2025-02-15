@@ -24,7 +24,7 @@ const AttendanceForm = () => {
     const submit = async (data) => {
         try {
             // console.log(data);
-            await fetch("http://localhost:3000/api/v1/attendance", {
+            await fetch("https://easy-present-backened.onrender.com/api/v1/attendance", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json', // Specify content type
