@@ -8,6 +8,7 @@ import Home from './components/Home.jsx';
 import TodaysAttendance from './components/TodaysAttendance.jsx';
 import AttendanceForm from './components/AttendanceForm.jsx';
 import SucccesfulAttendance from './components/SuccessfulAttendance.jsx';
+import QrCode from './components/QrcodeScanner.jsx';
 
 
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
@@ -23,6 +24,7 @@ const router = createBrowserRouter(
         <Route path='todays-attendances' element={<TodaysAttendance />} />
         <Route path='attendance-form' element={<AttendanceForm />} />
         <Route path='successful-attendance' element={<SucccesfulAttendance />} />
+        <Route path='qr-code' element={<QrCode />} />
       </Route>
     </>
   )
