@@ -57,10 +57,10 @@ const TodaysAttendance = () => {
                             <th scope="col" className="px-6 py-3 border-r-2 border-r-black">
                                 Year
                             </th>
-                            <th scope="col" className="px-6 py-3">
+                            <th scope="col" className="px-6 py-3 border-r-2 border-r-black">
                                 Section
                             </th>
-                            <th scope="col" className="px-6 py-3">
+                            <th scope="col" className="px-6 py-3 border-r-2 border-r-black">
                                 roll
                             </th>
                             <th scope="col" className="px-6 py-3">
