@@ -7,7 +7,7 @@ const TodaysAttendance = () => {
     useEffect(() => {
         // console.log("entered")
         const fetchAttendances = async() => {
-            fetch("https://easy-present-backened.onrender.com/api/v1/todays-attendance")
+            fetch("https://easy-present-production.up.railway.app/api/v1/todays-attendance")
             .then((res) => {
                 // console.log(res);
                 return res.json()
