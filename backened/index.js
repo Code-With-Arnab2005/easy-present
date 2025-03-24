@@ -10,11 +10,10 @@ app.get("/", (req, res) => {
 })
 
 //import routes
-
 import attendanceRouter from "./Routes/Attendance.routes.js";
 
 //routes declaration
-
 app.use("/api/v1", attendanceRouter);
+app.use("/api/v1/admin", )
 
 export default app;
